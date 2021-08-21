@@ -13,10 +13,8 @@ public:
     glm::vec3 vec_i, vec_j, vec_k, pos, eye, at, up;
 
     void gira(float distancia);
-    void anda(float angulo);
-
-    void aplica();
-    //void keyPressEvent(QKeyEvent *e);
+    void anda(float angulo);    
+    void aplica();    
 };
 
 #endif // CAMERA_H

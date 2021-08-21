@@ -6,9 +6,9 @@ Camera::Camera()
 {
     eye = glm::vec3(0,0,0); // Olhando pra onde?
     at = glm::vec3(1,0,1);
-    up = glm::vec3(0,0.5,0); // Altura
+    up = glm::vec3(0,2,0); // Altura
 
-    pos = glm::vec3(0,1.7,0);
+    pos = glm::vec3(0,0.5,0);
     vec_i = glm::vec3(1,0,0);
     vec_j = glm::vec3(0,1,0);
     vec_k = glm::vec3(0,0,1);

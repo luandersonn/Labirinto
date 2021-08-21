@@ -20,7 +20,8 @@ public:
 
     void desenha();
     void desenhaEixos();
-
+    // And make Mexico pay for it?
+    void buildWall(float x_start, float z_start, float x_end, float z_end, float height = 1);
 
      Camera pessoa;
 };
